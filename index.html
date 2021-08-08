@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagicNotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <h1>MagicNotes</h1> -->
+    <div class="first">
+        <h1 id="head1" style="margin-left: 333px; font-size: 35px;">Magic Notes</h1>
+    </div>
+    <div class="container">
+        <div class="noteCard">
+            <input type="text" class="text" id="title" placeholder="Add Title">
+            <textarea name="Area" id="text" class="text" cols="50" rows="4" placeholder="Description"></textarea>
+            <div class="btnArea">
+                <button id="add">Add Note</button>
+                <input type="search" id="searchTxt" placeholder="Search Notes">
+                <button id="deleteAll">Delete All</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="notesContainer"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
